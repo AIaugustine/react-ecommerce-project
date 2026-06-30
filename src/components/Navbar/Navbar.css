@@ -1,0 +1,74 @@
+.logo{
+    color:#252223;
+    text-decoration:none;
+}
+
+.logo:hover{
+    color:#252223;
+}
+
+.search-btn{
+    background:#252223;
+    color:white;
+}
+
+.search-btn i{
+    color:white;
+    font-size:1rem;
+}
+
+.search-btn:hover{
+    background:#252223;
+    color:white;
+}
+
+.bottom-nav{
+    background:#252223;
+}
+
+.bottom-nav .nav-link{
+    color:white;
+    font-weight:500;
+    transition:.3s;
+}
+
+.bottom-nav .nav-link:hover{
+    color:#f5c842;
+}
+
+.bottom-nav .nav-link.active{
+    color:#f5c842;
+}
+
+.bi{
+    cursor:pointer;
+    color:#252223;
+    transition:.2s;
+}
+
+.bi:hover{
+    transform:scale(1.15);
+}
+
+.badge{
+    font-size:.65rem;
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+
+@media (max-width:991px){
+
+    .logo{
+
+        display:block;
+        text-align:center;
+
+    }
+
+}
